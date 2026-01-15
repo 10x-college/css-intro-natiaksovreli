@@ -1,0 +1,245 @@
+body {
+    margin: 0;         /* Removes the white space in corners */
+    padding: 0;        /* Removes any internal padding */
+    width: 100%;
+    overflow-x: hidden; /* Keeps the right side clean */
+    background-color: #F5F5F7;
+}
+.header{
+    display: flex;
+    width: 1240px;
+    height: 72px; 
+    align-items: center;                       
+    background-color: #F5F5F7;
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+    width: 152px;
+    height: 50px;
+    top: 11px;
+    left: 352px;
+    background-color: #F0EDFF;
+    justify-content: center; 
+    align-items: center;
+}
+.logo_text {
+    width: 110px;
+    height: 29px;
+    top: 22px;
+    left: 375px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px; 
+    font-weight: 700; 
+    line-height: 100%;
+    color: #5B47D1;
+    text-align: center;
+   
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.banner{
+    height: 400px;
+    background-image: url("banner.jpg");
+
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+}
+.banner h1{
+    font-family: 'inter';
+    font-weight: 700px;
+    font-style: bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.banner h3{
+    font-family: 'inter';
+    font-weight: 500px;
+    font-style: medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+
+    font-family: 'inter';
+    font-weight: 700px;
+    font-style: bold;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: black;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px; 
+    max-width: 1240px;
+    margin: 40px auto; 
+}
+article{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 465px;
+
+}
+
+.card_color{
+    width: 360px;
+    height: 240px;
+
+}
+.card_purple .card_color { background-color:#C7B8FF; }
+.card_rose .card_color   { background-color: #FFB8D8; }
+.card_blue .card_color   { background-color: #B8E0FF; }
+.card_mint .card_color   { background-color: #D4FFB8; }
+.card_yellow .card_color   { background-color: #FFE4B8; }
+.card_orange .card_color   { background-color: #FFD4B8; }
+
+.card_content{
+width: 322px;
+height: 200px;
+background-color: white;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start; 
+align-items: flex-start;
+
+
+}
+.meta{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'inter';
+    font-size: 13px;
+    font-weight: 400px;
+    font-style: regular;
+    line-height: 100%;
+    left: 0%;
+    color: black;
+
+}
+.card-title {
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 100%;
+    color: black;
+}
+.card-article{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: black;
+}
+
+.footer{
+    background-color:#252424 ;
+    color: white;
+
+     display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    min-height: auto;
+}
+
+.footer_cont {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 33px 82px;
+    padding: 0 20px;
+}
+
+
+.footer-title_1,
+.footer-title_2{
+    margin-bottom: 11px;
+    margin-top: 57px;
+    
+}
+
+.footer_about,
+.footer_categories,
+.footer_contact
+{
+    margin-top: 0%;
+    text-align: left;
+    width: 296px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+   line-height: 1.1;
+
+}
+
+.footer_about p {
+    margin: 0;
+}
+
+h4{
+    text-align: left;
+    margin-top: 34px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px ;
+    font-weight: 600;
+    line-height: 1.1;
+}
+.footer_categories ul {
+    list-style-type: none; 
+    padding: 0px;            
+    margin-bottom: 14px;            
+}
+
+.footer_contact address {
+    font-style: normal;
+}
+.footer_categories ul li {
+    margin-bottom: 2px;
+}
+.disclamer {
+    background-color: #020202; 
+    width: 100%;               
+    display: block;            
+    padding: 20px 0;           
+    margin-top: auto;
+         
+             
+}
+
+.disclamer p {
+    margin: 0;
+    text-align: center;        
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;           
+}
